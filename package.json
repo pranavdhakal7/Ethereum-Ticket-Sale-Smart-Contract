@@ -1,0 +1,24 @@
+{
+  "name": "ticket-sale-contract",
+  "version": "1.0.0",
+  "description": "Smart contract for ticket sales",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node generateFiles.js",
+    "test": "mocha --timeout 10000",
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "1.7.0",
+    "dotenv": "16.0.3",
+    "ganache-cli": "6.12.2",
+    "solc": "0.8.9",
+    "web3": "1.5.2"
+  },
+  "devDependencies": {
+    "mocha": "9.2.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
